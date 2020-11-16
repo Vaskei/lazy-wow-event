@@ -1,0 +1,42 @@
+th, td {
+  white-space: nowrap;
+}
+
+.monday {
+  background-color: antiquewhite;
+}
+
+.tuesday {
+  background-color: lightblue;
+}
+
+.wednesday {
+  background-color: lightgrey;
+}
+
+.thursday {
+  background-color: lightpink;
+}
+
+.friday {
+  background-color: lightskyblue;
+}
+
+.saturday {
+  background-color: lightgreen;
+}
+
+.sunday {
+  background-color: lightseagreen;
+}
+
+.current-rare {
+  background-color: red;
+}
+
+th:first-child
+{
+  position:sticky;
+  left:0px;
+  background-color: white;
+}
