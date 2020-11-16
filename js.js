@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const today = Math.round(new Date().getTime() / 1000);
 
-  var temp = id_values.map(d => Math.abs(today - d + 360));
+  var temp = id_values.map(d => Math.abs(today - d + 90));
   var idx = temp.indexOf(Math.min(...temp));
 
   var current_cell = document.getElementById(id_values[idx]);
