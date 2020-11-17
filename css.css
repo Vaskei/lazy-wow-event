@@ -34,11 +34,12 @@ th, td {
   background-color: red;
 }
 
-th:first-child
+tbody tr th
 {
   position:sticky;
   left:0px;
   background-color: white;
+  cursor: pointer;
 }
 
 th.mount {
@@ -47,4 +48,10 @@ th.mount {
 
 th.bag {
   background-color: hotpink;
+}
+
+.item-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }

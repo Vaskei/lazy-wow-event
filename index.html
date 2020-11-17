@@ -13,35 +13,79 @@
 
   <link rel="stylesheet" href="css.css">
 
+  <script>const whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true};</script>
+  <script src="https://wow.zamimg.com/widgets/power.js"></script>
+
   <title>Lazy WoW Event Pre SL</title>
 </head>
 
 <body>
+
+  <div class="modal fade" id="blood-queen-modal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title">Blood Queen Lana'thel</h5>
+          <button type="button" class="close" data-dismiss="modal">
+            <span class="text-light">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body bg-dark">
+          <ul class="item-list">
+            <li><a href="https://www.wowhead.com/item=183646/chestguard-of-siphoned-vitality"></a></li>
+            <li><a href="https://www.wowhead.com/item=183648/veincrusher-gauntlets"></a></li>
+            <li><a href="https://www.wowhead.com/item=183647/bloodspatter"></a></li>
+            <li><a href="https://www.wowhead.com/item=183200/pitch-black-scourgestone"></a></li>
+            <li><a href="https://www.wowhead.com/item=183616/accursed-keepsake"></a></li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="putricide" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title">Professor Putricide</h5>
+          <button type="button" class="close" data-dismiss="modal">
+            <span class="text-light">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body bg-dark">
+          <ul class="item-list">
+            Soon!
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="container-fluid">
     <div class="row">
       <table class="table table-sm table-bordered" id="rare-table">
         <thead>
           <tr>
             <th>Name</th>
-            <th>Thur</th>
-            <th>Thur-Fri</th>
-            <th>Fri</th>
-            <th>Fri</th>
-            <th>Fri-Sat</th>
-            <th>Sat</th>
-            <th>Sat</th>
-            <th>Sat</th>
-            <th>Sat-Sun</th>
-            <th>Sun</th>
-            <th>Sun</th>
-            <th>Sun-Mon</th>
-            <th>Mon</th>
             <th>Mon</th>
             <th>Mon</th>
             <th>Mon-Tue</th>
             <th>Tue</th>
             <th>Tue</th>
+            <th>Tue</th>
+            <th>Tue</th>
+            <th>Tue</th>
+            <th>Tue</th>
             <th>Tue-Wed</th>
+            <th>Wed</th>
+            <th>Wed</th>
+            <th>Wed</th>
             <th>Wed</th>
             <th>Wed</th>
             <th>Wed</th>
@@ -49,6 +93,13 @@
             <th>Thu</th>
             <th>Thu</th>
             <th>Thu</th>
+            <th>Thu</th>
+            <th>Thu</th>
+            <th>Thu</th>
+            <th>Thu-Fri</th>
+            <th>Fri</th>
+            <th>Fri</th>
+            <th>Fri</th>
             <th>Fri</th>
             <th>Fri</th>
             <th>Fri</th>
@@ -56,29 +107,38 @@
             <th>Sat</th>
             <th>Sat</th>
             <th>Sat</th>
+            <th>Sat</th>
+            <th>Sat</th>
+            <th>Sat</th>
+            <th>Sat</th>
             <th>Sat-Sun</th>
             <th>Sun</th>
             <th>Sun</th>
+            <th>Sun</th>
+            <th>Sun</th>
+            <th>Sun</th>
+            <th>Sun</th>
             <th>Sun-Mon</th>
-            <th>Sun-Mon</th>
+            <th>Mon</th>
+            <th>Mon</th>
+            <th>Mon</th>
+            <th>Mon</th>
             <th>Mon</th>
             <th>Mon</th>
             <th>Mon-Tue</th>
             <th>Tue</th>
             <th>Tue</th>
             <th>Tue</th>
+            <th>Tue</th>
+            <th>Tue</th>
+            <th>Tue</th>
             <th>Tue-Wed</th>
             <th>Wed</th>
-            <th>Wed</th>
-            <th>Wed-Thu</th>
-            <th>Thu</th>
-            <th>Thu</th>
-            <th>Thu</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th class="first-column">Blood Queen Lana'thel</th>
+            <th class="first-column" data-toggle="modal" data-target="#blood-queen-modal">Blood Queen Lana'thel</th>
             <td id="1605542400" class="monday">16.11.2020. 17:00:00</td>
             <td id="1605554400" class="monday">16.11.2020. 20:20:00</td>
             <td id="1605566400" class="monday">16.11.2020. 23:40:00</td>
@@ -142,7 +202,7 @@
             <td id="1606262400" class="wednesday">25.11.2020. 1:00:00</td>
           </tr>
           <tr>
-            <th>Professor Putricide</th>
+            <th data-toggle="modal" data-target="#putricide">Professor Putricide</th>
             <td id="1605543000" class="monday">16.11.2020. 17:10:00</td>
             <td id="1605555000" class="monday">16.11.2020. 20:30:00</td>
             <td id="1605567000" class="monday">16.11.2020. 23:50:00</td>
@@ -1356,6 +1416,9 @@
             <td id="1606249800" class="tuesday">24.11.2020. 21:30:00</td>
             <td id="1606261800" class="wednesday">25.11.2020. 0:50:00</td>
             <td id="1606273800" class="wednesday">25.11.2020. 4:10:00</td>
+          </tr>
+          <tr>
+            <th>* Click on name for drops.</th>
           </tr>
         </tbody>
       </table>

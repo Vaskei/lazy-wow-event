@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+
   var ids = document.querySelectorAll("td");
 
   var id_values = [];
