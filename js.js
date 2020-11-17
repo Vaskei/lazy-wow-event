@@ -2,6 +2,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function refresh_table() {
     var ids = document.querySelectorAll("td");
+
+    ids.forEach(element => {
+      element.classList.remove("current-rare");
+    });
   
     var id_values = [];
     ids.forEach(element => {
