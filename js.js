@@ -31,6 +31,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
   refresh_table();
 
-  setInterval(refresh_table, 30000);
+  setInterval(refresh_table, 5000);
   
 });
